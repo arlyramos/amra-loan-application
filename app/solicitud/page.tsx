@@ -187,7 +187,7 @@ export default function SolicitudPage() {
 
                 {/* Dependents */}
                 <div className="space-y-2">
-                  <Label htmlFor="dependents">¿Cuántas personas <br></br>dependen de usted?</Label>
+                  <Label htmlFor="dependents">¿Cuántas personas dependen de usted?</Label>
                   <Select
                     value={formData.dependents}
                     onValueChange={(value) => updateField("dependents", value)}
@@ -249,7 +249,7 @@ export default function SolicitudPage() {
 
                 {/* Credit History */}
                 <div className="space-y-2">
-                  <Label htmlFor="credit_history">Historial crediticio<br></br> a su consideración</Label>
+                  <Label htmlFor="credit_history">Historial crediticio a su consideración</Label>
                   <Select
                     value={formData.credit_history}
                     onValueChange={(value) => updateField("credit_history", value)}
