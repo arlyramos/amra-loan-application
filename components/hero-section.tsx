@@ -23,7 +23,7 @@ export function HeroSection() {
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              Solicitar préstamo
+              Solicitar revisión
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </Link>
