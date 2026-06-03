@@ -10,11 +10,6 @@ const steps = [
     description: "Ingresa la información necesaria para evaluar la solicitud",
   },
   {
-    icon: ClipboardList,
-    title: "Completar solicitud",
-    description: "Ingresa tu información para la evaluación.",
-  },
-  {
     icon: CheckCircle,
     title: "Consultar resultado",
     description: "Recibe tu evaluación en segundos.",
