@@ -120,12 +120,30 @@ export default function ResultadoPage() {
               </div>
             </div>
 
+            {/* Recommendations */}
+            
+            {!isApproved && (
+              <div className="bg-background rounded-xl p-6 mb-6 border border-border text-left">
+                <h3 className="text-lg font-semibold mb-4">
+                  Recomendaciones para mejorar tu solicitud
+                </h3>
+
+                <ul className="list-disc list-inside space-y-2 text-muted-foreground">
+                  <li>Mantén un historial crediticio positivo y sin atrasos.</li>
+                  <li>Considera solicitar un monto de préstamo menor.</li>
+                  <li>Procura demostrar ingresos estables y suficientes.</li>
+                  <li>Si es posible, incrementa tu capacidad de pago.</li>
+                  <li>Selecciona un plazo de préstamo acorde a tus ingresos.</li>
+                </ul>
+              </div>
+            )}
+
             {/* Disclaimer */}
             <div className="bg-muted/50 rounded-lg p-4 text-left">
               <p className="text-xs text-muted-foreground leading-relaxed">
                 <strong>Aviso:</strong> Este resultado es una predicción generada por un
-                modelo de Machine Learning con fines educativos y no representa una
-                aprobación real de crédito.
+                modelo de Machine Learning entrenado para un proyecto académico y no representa una
+                aprobación real de préstamo.
               </p>
             </div>
           </CardContent>
