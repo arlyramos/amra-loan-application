@@ -43,6 +43,9 @@ def predict():
 
     df = pd.DataFrame([data])
 
+    
+    df["loanamount"] = df["loanamount"] / 1000
+
     # Normalizar valores que vienen del frontend
     df["education"] = df["education"].replace({
         "not_graduate": "not graduate",

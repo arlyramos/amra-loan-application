@@ -273,7 +273,7 @@ export default function SolicitudPage() {
                   <Input
                     id="applicantincome"
                     type="number"
-                    placeholder="Ej: 5 = $5,000 MXN
+                    placeholder="Ej: $50,000 MXN
 
  "
                     value={formData.applicantincome}
@@ -291,7 +291,7 @@ export default function SolicitudPage() {
                   <Input
                     id="coapplicantincome"
                     type="number"
-                    placeholder="Ej: 10 = $10,000 MXN
+                    placeholder="Ej: $20,000 MXN
 
 "
                     value={formData.coapplicantincome}
@@ -309,7 +309,7 @@ export default function SolicitudPage() {
                   <Input
                     id="loanamount"
                     type="number"
-                    placeholder="Ej: 50 = $50,000 MXN
+                    placeholder="Ej: $80,000 MXN
 
 "
                     value={formData.loanamount}
