@@ -120,14 +120,14 @@ export default function SolicitudPage() {
     
           <div className="flex flex-col items-center">
             <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-semibold">
-              2
+              1
             </div>
             <span className="text-xs mt-1 text-primary font-medium">Solicitud</span>
           </div>
           <div className="w-12 h-0.5 bg-border" />
           <div className="flex flex-col items-center">
             <div className="w-8 h-8 rounded-full bg-muted text-muted-foreground flex items-center justify-center text-sm font-semibold">
-              3
+              2
             </div>
             <span className="text-xs mt-1 text-muted-foreground">Resultado</span>
           </div>
