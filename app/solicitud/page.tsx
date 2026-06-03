@@ -249,7 +249,7 @@ export default function SolicitudPage() {
 
                 {/* Credit History */}
                 <div className="space-y-2">
-                  <Label htmlFor="credit_history">Historial crediticio</Label>
+                  <Label htmlFor="credit_history">Historial crediticio<br></br> a su consideración</Label>
                   <Select
                     value={formData.credit_history}
                     onValueChange={(value) => updateField("credit_history", value)}
@@ -258,8 +258,8 @@ export default function SolicitudPage() {
                       <SelectValue placeholder="Seleccionar" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="1">Bueno (1)</SelectItem>
-                      <SelectItem value="0">Malo (0)</SelectItem>
+                      <SelectItem value="1">Bueno</SelectItem>
+                      <SelectItem value="0">Malo</SelectItem>
                     </SelectContent>
                   </Select>
                   {errors.credit_history && (
@@ -269,11 +269,13 @@ export default function SolicitudPage() {
 
                 {/* Applicant Income */}
                 <div className="space-y-2">
-                  <Label htmlFor="applicantincome">Ingreso del solicitante</Label>
+                  <Label htmlFor="applicantincome">Ingreso del solicitante en miles de pesos mexicanos</Label>
                   <Input
                     id="applicantincome"
                     type="number"
-                    placeholder="Ej: 5000"
+                    placeholder="Ej: 5 = $5,000 MXN
+
+ "
                     value={formData.applicantincome}
                     onChange={(e) => updateField("applicantincome", e.target.value)}
                     className={errors.applicantincome ? "border-destructive" : ""}
@@ -285,11 +287,13 @@ export default function SolicitudPage() {
 
                 {/* Coapplicant Income */}
                 <div className="space-y-2">
-                  <Label htmlFor="coapplicantincome">Ingreso del cosolicitante</Label>
+                  <Label htmlFor="coapplicantincome">Ingreso del cosolicitante en miles de pesos mexicanos</Label>
                   <Input
                     id="coapplicantincome"
                     type="number"
-                    placeholder="Ej: 1000"
+                    placeholder="Ej: 10 = $10,000 MXN
+
+"
                     value={formData.coapplicantincome}
                     onChange={(e) => updateField("coapplicantincome", e.target.value)}
                     className={errors.coapplicantincome ? "border-destructive" : ""}
@@ -301,11 +305,13 @@ export default function SolicitudPage() {
 
                 {/* Loan Amount */}
                 <div className="space-y-2">
-                  <Label htmlFor="loanamount">Monto del préstamo</Label>
+                  <Label htmlFor="loanamount">Monto del préstamo en miles de pesos mexicanos</Label>
                   <Input
                     id="loanamount"
                     type="number"
-                    placeholder="Ej: 150"
+                    placeholder="Ej: 50 = $50,000 MXN
+
+"
                     value={formData.loanamount}
                     onChange={(e) => updateField("loanamount", e.target.value)}
                     className={errors.loanamount ? "border-destructive" : ""}
@@ -333,7 +339,7 @@ export default function SolicitudPage() {
 
                 {/* Property Area */}
                 <div className="space-y-2 md:col-span-2">
-                  <Label htmlFor="property_area">Área de la propiedad</Label>
+                  <Label htmlFor="property_area">Zona en donde vive</Label>
                   <Select
                     value={formData.property_area}
                     onValueChange={(value) => updateField("property_area", value)}
