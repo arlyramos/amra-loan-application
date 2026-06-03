@@ -6,8 +6,8 @@ import { Card, CardContent } from "@/components/ui/card";
 const steps = [
   {
     icon: UserPlus,
-    title: "Crear cuenta",
-    description: "Regístrate con tu cuenta de Google para comenzar.",
+    title: "Completa los datos",
+    description: "Ingresa la información necesaria para evaluar la solicitud",
   },
   {
     icon: ClipboardList,

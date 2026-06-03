@@ -117,13 +117,7 @@ export default function SolicitudPage() {
 
         {/* Step indicator */}
         <div className="flex items-center justify-center gap-8 mb-8">
-          <div className="flex flex-col items-center">
-            <div className="w-8 h-8 rounded-full bg-primary/20 text-primary flex items-center justify-center text-sm font-semibold">
-              ✓
-            </div>
-            <span className="text-xs mt-1 text-muted-foreground">Cuenta</span>
-          </div>
-          <div className="w-12 h-0.5 bg-primary" />
+    
           <div className="flex flex-col items-center">
             <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-semibold">
               2

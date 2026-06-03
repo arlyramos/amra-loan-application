@@ -18,7 +18,7 @@ export function HeroSection() {
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty leading-relaxed">
             Obtén una evaluación inteligente de tu solicitud de préstamo en segundos mediante tecnología de Machine Learning.
           </p>
-          <Link href="/cuenta">
+          <Link href="/solicitud">
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
